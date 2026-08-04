@@ -1,8 +1,9 @@
 {
+  "$schema": "https://openapi.vercel.sh/vercel.json",
   "redirects": [
     {
-      "source": "/:path*",
-      "destination": "https://www.hmctsllc.com/:path*",
+      "source": "/(.*)",
+      "destination": "https://www.hmctsllc.com/$1",
       "permanent": true
     }
   ]
